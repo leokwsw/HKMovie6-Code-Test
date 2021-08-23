@@ -3,10 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1373A5D414F0E849A96472AF /* Pods_HKMovie6_Coding_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E342E53854FCDD354AE6CCF1 /* Pods_HKMovie6_Coding_Test.framework */; };
+		F91DA29726CD524800284532 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91DA29626CD524800284532 /* ResponseModel.swift */; };
+		F91DA2A626CD681900284532 /* ViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91DA2A526CD681900284532 /* ViewControllerViewModel.swift */; };
+		F94217E826D2BFB600FD65D0 /* MovieHorizontalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94217E626D2BFB600FD65D0 /* MovieHorizontalTableViewCell.swift */; };
+		F94217E926D2BFB600FD65D0 /* MovieHorizontalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94217E726D2BFB600FD65D0 /* MovieHorizontalTableViewCell.xib */; };
+		F999632026D2057A0021A89E /* MovieVerticalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F999631E26D2057A0021A89E /* MovieVerticalCollectionViewCell.swift */; };
+		F999632126D2057A0021A89E /* MovieVerticalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F999631F26D2057A0021A89E /* MovieVerticalCollectionViewCell.xib */; };
+		F999632426D2251B0021A89E /* MovieInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F999632326D2251B0021A89E /* MovieInfoView.swift */; };
+		F999632626D225260021A89E /* MovieInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F999632526D225260021A89E /* MovieInfoView.xib */; };
+		F999632926D239860021A89E /* MovieModelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F999632826D239860021A89E /* MovieModelViewModel.swift */; };
 		F99B1C7526CD47A4001B38E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99B1C7426CD47A4001B38E0 /* AppDelegate.swift */; };
 		F99B1C7726CD47A4001B38E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99B1C7626CD47A4001B38E0 /* SceneDelegate.swift */; };
 		F99B1C7926CD47A4001B38E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99B1C7826CD47A4001B38E0 /* ViewController.swift */; };
@@ -16,7 +26,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F99B1C7126CD47A4001B38E0 /* HKMovie6 Codeing Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HKMovie6 Codeing Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23299FA316390A913F9C5E47 /* Pods-HKMovie6 Coding Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKMovie6 Coding Test.release.xcconfig"; path = "Target Support Files/Pods-HKMovie6 Coding Test/Pods-HKMovie6 Coding Test.release.xcconfig"; sourceTree = "<group>"; };
+		E342E53854FCDD354AE6CCF1 /* Pods_HKMovie6_Coding_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HKMovie6_Coding_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5D243B19C14E7CF16A926A /* Pods-HKMovie6 Coding Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKMovie6 Coding Test.debug.xcconfig"; path = "Target Support Files/Pods-HKMovie6 Coding Test/Pods-HKMovie6 Coding Test.debug.xcconfig"; sourceTree = "<group>"; };
+		F91DA29626CD524800284532 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		F91DA2A526CD681900284532 /* ViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerViewModel.swift; sourceTree = "<group>"; };
+		F94217E626D2BFB600FD65D0 /* MovieHorizontalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieHorizontalTableViewCell.swift; sourceTree = "<group>"; };
+		F94217E726D2BFB600FD65D0 /* MovieHorizontalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieHorizontalTableViewCell.xib; sourceTree = "<group>"; };
+		F999631E26D2057A0021A89E /* MovieVerticalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVerticalCollectionViewCell.swift; sourceTree = "<group>"; };
+		F999631F26D2057A0021A89E /* MovieVerticalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieVerticalCollectionViewCell.xib; sourceTree = "<group>"; };
+		F999632326D2251B0021A89E /* MovieInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoView.swift; sourceTree = "<group>"; };
+		F999632526D225260021A89E /* MovieInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieInfoView.xib; sourceTree = "<group>"; };
+		F999632826D239860021A89E /* MovieModelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModelViewModel.swift; sourceTree = "<group>"; };
+		F99B1C7126CD47A4001B38E0 /* HKMovie6 Coding Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HKMovie6 Coding Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99B1C7426CD47A4001B38E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F99B1C7626CD47A4001B38E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F99B1C7826CD47A4001B38E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,31 +53,92 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1373A5D414F0E849A96472AF /* Pods_HKMovie6_Coding_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CE6E5E0A2FFFBE3E9A28A07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E342E53854FCDD354AE6CCF1 /* Pods_HKMovie6_Coding_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDF8726241D9DAF1035B6C1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB5D243B19C14E7CF16A926A /* Pods-HKMovie6 Coding Test.debug.xcconfig */,
+				23299FA316390A913F9C5E47 /* Pods-HKMovie6 Coding Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F91DA2A226CD5AD300284532 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				F999631E26D2057A0021A89E /* MovieVerticalCollectionViewCell.swift */,
+				F999631F26D2057A0021A89E /* MovieVerticalCollectionViewCell.xib */,
+				F94217E626D2BFB600FD65D0 /* MovieHorizontalTableViewCell.swift */,
+				F94217E726D2BFB600FD65D0 /* MovieHorizontalTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		F91DA2A426CD67EF00284532 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F91DA29626CD524800284532 /* ResponseModel.swift */,
+				F91DA2A526CD681900284532 /* ViewControllerViewModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F999632226D223AC0021A89E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F999632326D2251B0021A89E /* MovieInfoView.swift */,
+				F999632526D225260021A89E /* MovieInfoView.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F999632726D239710021A89E /* view model */ = {
+			isa = PBXGroup;
+			children = (
+				F999632826D239860021A89E /* MovieModelViewModel.swift */,
+			);
+			path = "view model";
+			sourceTree = "<group>";
+		};
 		F99B1C6826CD47A4001B38E0 = {
 			isa = PBXGroup;
 			children = (
-				F99B1C7326CD47A4001B38E0 /* HKMovie6 Codeing Test */,
+				F99B1C7326CD47A4001B38E0 /* HKMovie6 Coding Test */,
 				F99B1C7226CD47A4001B38E0 /* Products */,
+				DDF8726241D9DAF1035B6C1A /* Pods */,
+				0CE6E5E0A2FFFBE3E9A28A07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		F99B1C7226CD47A4001B38E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F99B1C7126CD47A4001B38E0 /* HKMovie6 Codeing Test.app */,
+				F99B1C7126CD47A4001B38E0 /* HKMovie6 Coding Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F99B1C7326CD47A4001B38E0 /* HKMovie6 Codeing Test */ = {
+		F99B1C7326CD47A4001B38E0 /* HKMovie6 Coding Test */ = {
 			isa = PBXGroup;
 			children = (
+				F999632726D239710021A89E /* view model */,
+				F999632226D223AC0021A89E /* view */,
+				F91DA2A426CD67EF00284532 /* model */,
+				F91DA2A226CD5AD300284532 /* cell */,
 				F99B1C7426CD47A4001B38E0 /* AppDelegate.swift */,
 				F99B1C7626CD47A4001B38E0 /* SceneDelegate.swift */,
 				F99B1C7826CD47A4001B38E0 /* ViewController.swift */,
@@ -64,27 +147,29 @@
 				F99B1C7F26CD47A4001B38E0 /* LaunchScreen.storyboard */,
 				F99B1C8226CD47A4001B38E0 /* Info.plist */,
 			);
-			path = "HKMovie6 Codeing Test";
+			path = "HKMovie6 Coding Test";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F99B1C7026CD47A4001B38E0 /* HKMovie6 Codeing Test */ = {
+		F99B1C7026CD47A4001B38E0 /* HKMovie6 Coding Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F99B1C8526CD47A4001B38E0 /* Build configuration list for PBXNativeTarget "HKMovie6 Codeing Test" */;
+			buildConfigurationList = F99B1C8526CD47A4001B38E0 /* Build configuration list for PBXNativeTarget "HKMovie6 Coding Test" */;
 			buildPhases = (
+				236C71546D939E8406538C7E /* [CP] Check Pods Manifest.lock */,
 				F99B1C6D26CD47A4001B38E0 /* Sources */,
 				F99B1C6E26CD47A4001B38E0 /* Frameworks */,
 				F99B1C6F26CD47A4001B38E0 /* Resources */,
+				3EB4B15CD18755370B23DC9E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "HKMovie6 Codeing Test";
+			name = "HKMovie6 Coding Test";
 			productName = "HKMovie6 Codeing Test";
-			productReference = F99B1C7126CD47A4001B38E0 /* HKMovie6 Codeing Test.app */;
+			productReference = F99B1C7126CD47A4001B38E0 /* HKMovie6 Coding Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F99B1C6C26CD47A4001B38E0 /* Build configuration list for PBXProject "HKMovie6 Codeing Test" */;
+			buildConfigurationList = F99B1C6C26CD47A4001B38E0 /* Build configuration list for PBXProject "HKMovie6 Coding Test" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +199,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F99B1C7026CD47A4001B38E0 /* HKMovie6 Codeing Test */,
+				F99B1C7026CD47A4001B38E0 /* HKMovie6 Coding Test */,
 			);
 		};
 /* End PBXProject section */
@@ -124,13 +209,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94217E926D2BFB600FD65D0 /* MovieHorizontalTableViewCell.xib in Resources */,
 				F99B1C8126CD47A4001B38E0 /* LaunchScreen.storyboard in Resources */,
+				F999632626D225260021A89E /* MovieInfoView.xib in Resources */,
 				F99B1C7E26CD47A4001B38E0 /* Assets.xcassets in Resources */,
+				F999632126D2057A0021A89E /* MovieVerticalCollectionViewCell.xib in Resources */,
 				F99B1C7C26CD47A4001B38E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		236C71546D939E8406538C7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HKMovie6 Coding Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EB4B15CD18755370B23DC9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HKMovie6 Coding Test/Pods-HKMovie6 Coding Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HKMovie6 Coding Test/Pods-HKMovie6 Coding Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HKMovie6 Coding Test/Pods-HKMovie6 Coding Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F99B1C6D26CD47A4001B38E0 /* Sources */ = {
@@ -140,6 +270,12 @@
 				F99B1C7926CD47A4001B38E0 /* ViewController.swift in Sources */,
 				F99B1C7526CD47A4001B38E0 /* AppDelegate.swift in Sources */,
 				F99B1C7726CD47A4001B38E0 /* SceneDelegate.swift in Sources */,
+				F94217E826D2BFB600FD65D0 /* MovieHorizontalTableViewCell.swift in Sources */,
+				F999632026D2057A0021A89E /* MovieVerticalCollectionViewCell.swift in Sources */,
+				F999632426D2251B0021A89E /* MovieInfoView.swift in Sources */,
+				F91DA2A626CD681900284532 /* ViewControllerViewModel.swift in Sources */,
+				F91DA29726CD524800284532 /* ResponseModel.swift in Sources */,
+				F999632926D239860021A89E /* MovieModelViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,16 +419,18 @@
 		};
 		F99B1C8626CD47A4001B38E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB5D243B19C14E7CF16A926A /* Pods-HKMovie6 Coding Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "HKMovie6 Codeing Test/Info.plist";
+				DEVELOPMENT_TEAM = M7M8Q5Z59L;
+				INFOPLIST_FILE = "HKMovie6 Coding Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.leonardpark.HKMovie6-Codeing-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leonardpark.HKMovie6-Coding-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,16 +439,18 @@
 		};
 		F99B1C8726CD47A4001B38E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23299FA316390A913F9C5E47 /* Pods-HKMovie6 Coding Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "HKMovie6 Codeing Test/Info.plist";
+				DEVELOPMENT_TEAM = M7M8Q5Z59L;
+				INFOPLIST_FILE = "HKMovie6 Coding Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.leonardpark.HKMovie6-Codeing-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leonardpark.HKMovie6-Coding-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,7 +460,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F99B1C6C26CD47A4001B38E0 /* Build configuration list for PBXProject "HKMovie6 Codeing Test" */ = {
+		F99B1C6C26CD47A4001B38E0 /* Build configuration list for PBXProject "HKMovie6 Coding Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F99B1C8326CD47A4001B38E0 /* Debug */,
@@ -329,7 +469,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F99B1C8526CD47A4001B38E0 /* Build configuration list for PBXNativeTarget "HKMovie6 Codeing Test" */ = {
+		F99B1C8526CD47A4001B38E0 /* Build configuration list for PBXNativeTarget "HKMovie6 Coding Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F99B1C8626CD47A4001B38E0 /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  HKMovie6 Codeing Test
+//  HKMovie6 Coding Test
 //
 //  Created by Leo Wu on 18/8/2021.
 //
