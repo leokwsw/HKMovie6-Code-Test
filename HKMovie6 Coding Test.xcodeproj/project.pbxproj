@@ -135,9 +135,9 @@
 		F99B1C7326CD47A4001B38E0 /* HKMovie6 Coding Test */ = {
 			isa = PBXGroup;
 			children = (
-				F999632726D239710021A89E /* view model */,
-				F999632226D223AC0021A89E /* view */,
 				F91DA2A426CD67EF00284532 /* model */,
+				F999632226D223AC0021A89E /* view */,
+				F999632726D239710021A89E /* view model */,
 				F91DA2A226CD5AD300284532 /* cell */,
 				F99B1C7426CD47A4001B38E0 /* AppDelegate.swift */,
 				F99B1C7626CD47A4001B38E0 /* SceneDelegate.swift */,

@@ -26,6 +26,7 @@ class MovieHorizontalTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        selectionStyle = .none
     }
     
     func setup(viewModel: MovieModelViewModel) {
@@ -37,11 +38,6 @@ class MovieHorizontalTableViewCell: UITableViewCell {
             guard let self = self else { return }
             self.ratingLabel.text = rating
             self.ratingView.rating = Double(rating) ?? 0.0
-            self.ratingView.settings.updateOnTouch = false
-            self.ratingView.settings.fillMode = .half
-            self.ratingView.settings.starSize = 7.5
-            self.ratingView.settings.starMargin = 2
-            self.ratingView.settings.totalStars = 5
         }.disposed(by: disposeBag)
         viewModel.name.bind(to: titleLabel.rx.text).disposed(by: disposeBag)
         likeView.imageView.image = UIImage(systemName: "heart")

@@ -22,11 +22,9 @@ struct MovieModelViewModel {
         name.accept(model.name ?? "")
         posterUrl.accept(model.poster ?? "")
         rating.accept(String(format: "%.1f", model.rating ?? 0.0))
-//        rating.accept("\(model.rating ?? 0)")
-        likeCount.accept("\(model.linkCount ?? 0)")
+        likeCount.accept("\(model.likeCount ?? 0)")
         reviewCount.accept("\(model.reviewCount ?? 0)")
         duration.accept(model.duration ?? 0)
-        
         publishOpenDate(timeStamp: model.openDate ?? 0)
     }
     
@@ -35,11 +33,9 @@ struct MovieModelViewModel {
         
         let dateFormatter = DateFormatter()
         dateFormatter.locale = Locale(identifier: "zh-Hant")
+        dateFormatter.dateFormat = "yyyy-MM-dd"
         
         formattedOpenDate.accept(dateFormatter.string(from: date))
-        
-//        print(date.string(withFormat: "YYYY-MM-dd"))
-        // swifterswift
 
     }
 }

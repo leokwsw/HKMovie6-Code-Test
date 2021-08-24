@@ -47,18 +47,22 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
                                         <color key="value" systemColor="systemYellowColor"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="emptyBorderColor">
-                                        <color key="value" systemColor="systemYellowColor"/>
-                                    </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
                                         <integer key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="starSize">
-                                        <real key="value" value="7.5"/>
+                                        <real key="value" value="11"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="starMargin">
-                                        <real key="value" value="2"/>
+                                        <real key="value" value="-2"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="emptyBorderColor">
+                                        <color key="value" systemColor="systemYellowColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fillMode">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="updateOnTouch" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
@@ -69,17 +73,17 @@
                             <constraint firstItem="QRr-5J-6cn" firstAttribute="leading" secondItem="xjV-yQ-Z0G" secondAttribute="leading" id="xwN-wU-KbV"/>
                         </constraints>
                     </view>
-                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="f0J-6n-SYk">
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="f0J-6n-SYk">
                         <rect key="frame" x="131.5" y="16" width="227.5" height="52"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSh-Yb-cCc">
-                                <rect key="frame" x="0.0" y="0.0" width="227.5" height="20.5"/>
+                                <rect key="frame" x="0.0" y="0.0" width="227.5" height="18.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Jh-Zn-AsV">
-                                <rect key="frame" x="0.0" y="20.5" width="227.5" height="11"/>
+                                <rect key="frame" x="0.0" y="22.5" width="227.5" height="11"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" placeholderIntrinsicWidth="50" placeholderIntrinsicHeight="11" translatesAutoresizingMaskIntoConstraints="NO" id="Rno-lq-YbO" userLabel="like" customClass="MovieInfoView" customModule="HKMovie6_Coding_Test" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="11"/>
@@ -98,13 +102,12 @@
                                     <constraint firstAttribute="bottom" secondItem="Rno-lq-YbO" secondAttribute="bottom" id="7OB-R9-p78"/>
                                     <constraint firstItem="Rno-lq-YbO" firstAttribute="top" secondItem="5Jh-Zn-AsV" secondAttribute="top" id="917-ch-dFW"/>
                                     <constraint firstItem="Rno-lq-YbO" firstAttribute="centerY" secondItem="5Jh-Zn-AsV" secondAttribute="centerY" id="hBr-3e-EwE"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Lo6-4w-KVj" secondAttribute="trailing" id="l5W-uA-Zec"/>
                                     <constraint firstItem="Lo6-4w-KVj" firstAttribute="bottom" secondItem="Rno-lq-YbO" secondAttribute="bottom" id="ned-Ua-Hqh"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqa-Xq-Oxy">
-                                <rect key="frame" x="0.0" y="31.5" width="227.5" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="0.0" y="37.5" width="227.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -145,7 +148,7 @@
     </objects>
     <designables>
         <designable name="xjV-yQ-Z0G">
-            <size key="intrinsicContentSize" width="45.5" height="7.5"/>
+            <size key="intrinsicContentSize" width="47" height="11"/>
         </designable>
     </designables>
     <resources>

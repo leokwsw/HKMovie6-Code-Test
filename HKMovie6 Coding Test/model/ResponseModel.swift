@@ -13,7 +13,7 @@ struct MovieModel: Codable {
     let openDate: Double?
     let poster: String?
     let rating: Double?
-    let linkCount: Int?
+    let likeCount: Int?
     let reviewCount: Int?
     let duration: Int?
     
@@ -23,7 +23,7 @@ struct MovieModel: Codable {
         case openDate = "openDate"
         case poster = "poster"
         case rating = "rating"
-        case linkCount = "linkCount"
+        case likeCount = "likeCount"
         case reviewCount = "reviewCount"
         case duration = "duration"
     }

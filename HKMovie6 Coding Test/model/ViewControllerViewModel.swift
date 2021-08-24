@@ -13,7 +13,7 @@ import RxAlamofire
 struct ViewControllerViewModel {
     let movieViewModels = BehaviorRelay<[MovieModelViewModel]>(value: [])
     let isLoad = PublishSubject<Bool>()
-    let isGrid = PublishRelay<Bool>()
+    let isGrid = BehaviorRelay<Bool>(value: true)
     
     func callAPIForGetMovie() -> Disposable {
         return RxAlamofire.requestString(.get, "https://jsonkeeper.com/b/WTPZ")
